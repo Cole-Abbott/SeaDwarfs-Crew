@@ -1,3 +1,7 @@
+#Usage: python NFTgenerator.py (number of images)
+#must have file called options.json
+#must have empty folders called metadata and images
+
 import json, sys, copy, requests
 import pysvg.structure
 import pysvg.builders
